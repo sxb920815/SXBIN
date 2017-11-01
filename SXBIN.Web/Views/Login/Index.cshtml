@@ -1,0 +1,38 @@
+﻿@using System.Web.Optimization
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SXBIN 后台框架 - 主页</title>
+    <link rel="shortcut icon" href="~/Resources/Admin/Images/favicon.ico">
+    @Styles.Render("~/admin/css")
+    <script>if (window.top !== window.self) { window.top.location = window.location; }</script>
+</head>
+<body class="gray-bg">
+    <div class="middle-box text-center loginscreen  animated fadeInDown">
+        <div>
+            <div>
+                <h1 class="logo-name">H+</h1>
+            </div>
+            <h3>后台管理</h3>
+            <form class="m-t" role="form" method="POST" action="@Url.Action("LoginOnPost","Login")">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="UserName" placeholder="用户名" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="Password" placeholder="密码" required="">
+                </div>
+                <button type="submit" class="btn btn-primary block full-width m-b">登 录</button>
+
+                <p class="text-muted text-center">
+                    <a href="login.html#"><small>忘记密码了？</small></a>
+                </p>
+            </form>
+        </div>
+    </div>
+    @Scripts.Render("~/admin/js")
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+    <!--统计代码，可删除-->
+</body>
+</html>

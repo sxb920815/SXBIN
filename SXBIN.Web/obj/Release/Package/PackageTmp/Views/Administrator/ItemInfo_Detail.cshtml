@@ -1,0 +1,25 @@
+﻿@model FMA.DB.M_ItemInfo
+@{
+	Layout = "~/Views/Shared/_Index_LayoutEdit.cshtml";
+}
+<table class="formtable">
+	<tbody>
+		<tr>
+			<th>ID:</th>
+			<td>@Html.DisplayFor(model => model.ID)</td>
+		</tr>
+		<tr>
+			<th>项目名称:</th>
+			<td>@Html.DisplayFor(model => model.Name)</td>
+		</tr>
+		<tr>
+			<th>上级ID:</th>
+			<td>@Html.DisplayFor(model => model.PID)</td>
+		</tr>
+		<tr>
+			<th>类别:</th>
+			<td>@Html.DisplayFor(model => model.type)</td>
+		</tr>
+
+	</tbody>
+</table>

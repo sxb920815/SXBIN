@@ -1,0 +1,14 @@
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\FMA.DB.dll.config
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\FMA.DB.dll
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\FMA.DB.pdb
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\EntityFramework.dll
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\EntityFramework.SqlServer.dll
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\Newtonsoft.Json.dll
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\EntityFramework.xml
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\EntityFramework.SqlServer.xml
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\Newtonsoft.Json.xml
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\obj\Debug\FMA.DB.csprojResolveAssemblyReference.cache
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\obj\Debug\FMA.DB.dll
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\obj\Debug\FMA.DB.pdb
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\MySql.Data.dll
+D:\Company\泽耳根\code\FinancialModelAssessment\FMA.DB\bin\Debug\MySql.Data.Entity.EF6.dll

@@ -1,0 +1,37 @@
+﻿@model FMA.DB.M_UserInfo
+@{
+	Layout = "~/Views/Shared/_Index_LayoutEdit.cshtml";
+}
+<table class="formtable">
+	<tbody>
+		<tr>
+			<th>ID:</th>
+			<td>@Html.DisplayFor(model => model.ID)</td>
+		</tr>
+		<tr>
+			<th>用户名:</th>
+			<td>@Html.DisplayFor(model => model.UserName)</td>
+		</tr>
+		<tr>
+			<th>添加时间:</th>
+			<td>@Html.DisplayFor(model => model.CreateTime)</td>
+		</tr>
+		<tr>
+			<th>手机号:</th>
+			<td>@Html.DisplayFor(model => model.PhoneNumber)</td>
+		</tr>
+		<tr>
+			<th>登录密码:</th>
+			<td>@Html.DisplayFor(model => model.Password)</td>
+		</tr>
+		<tr>
+			<th>状态:</th>
+			<td>@Html.DisplayFor(model => model.Status)</td>
+		</tr>
+		<tr>
+			<th>推广码:</th>
+			<td>@Html.DisplayFor(model => model.ExtensionCode)</td>
+		</tr>
+
+	</tbody>
+</table>

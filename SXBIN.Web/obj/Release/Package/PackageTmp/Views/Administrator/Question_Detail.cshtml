@@ -1,0 +1,21 @@
+﻿@model FMA.DB.M_Question
+@{
+	Layout = "~/Views/Shared/_Index_LayoutEdit.cshtml";
+}
+<table class="formtable">
+	<tbody>
+		<tr>
+			<th>ID:</th>
+			<td>@Html.DisplayFor(model => model.ID)</td>
+		</tr>
+		<tr>
+			<th>问题:</th>
+			<td>@Html.DisplayFor(model => model.Name)</td>
+		</tr>
+		<tr>
+			<th>答案:</th>
+			<td>@Html.DisplayFor(model => model.Answer)</td>
+		</tr>
+
+	</tbody>
+</table>
